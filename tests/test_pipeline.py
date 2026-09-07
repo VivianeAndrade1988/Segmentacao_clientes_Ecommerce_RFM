@@ -77,6 +77,7 @@ def test_fit_kmeans_and_cluster_profile_end_to_end(synthetic_raw_df):
     df_clean = clean_data(synthetic_raw_df)
     df_rfm = compute_rfm(df_clean)
     df_clip = clip_outliers(df_rfm)
+    
     df_scaled, _ = scale_rfm(df_clip)
 
     model, labels = fit_kmeans(df_scaled, n_clusters=4)
