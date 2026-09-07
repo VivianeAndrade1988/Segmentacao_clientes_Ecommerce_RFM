@@ -26,9 +26,9 @@ comportamentais, cada um com recomendações de ação específicas.
 
 | Você quer... | Veja |
 |---|---|
-| Entender a análise e as recomendações em linguagem de negócio | [`docs/ANALISE_EXECUTIVA.md`](docs/ANALISE_EXECUTIVA.md) |
-| Apresentar os resultados a stakeholders | [`docs/ANALISE_EXECUTIVA.pptx`](docs/ANALISE_EXECUTIVA.pptx) |
-| Entender decisões técnicas, metodologia e como reproduzir | [`docs/README_TECNICO.md`](docs/README_TECNICO.md) |
+| Entender a análise e as recomendações em linguagem de negócio | [`docs/ANALISE_EXECUTIVA.md`](docs/Analise_executiva.md) |
+| Apresentar os resultados a stakeholders | [`docs/ANALISE_EXECUTIVA.pptx`](docs/Analise_executiva.pptx) |
+| Entender decisões técnicas, metodologia e como reproduzir | [`docs/README_TECNICO.md`](docs/Readme_tecnico.md) |
 | Ver a análise exploratória e a modelagem passo a passo | [`notebooks/rfm_clustering_analysis.ipynb`](notebooks/rfm_clustering_analysis.ipynb) |
 | Rodar a pipeline em produção/lote | [`src/pipeline.py`](src/pipeline.py) |
 
