@@ -37,7 +37,7 @@ comportamentais, cada um com recomendações de ação específicas.
 ```bash
 # 1. Clonar o repositório
 git clone <url-do-repositorio>
-cd desafio7-rfm-customer-segmentation
+Segmentacao_clientes_Ecommerce_RFM
 
 # 2. Criar ambiente virtual e instalar dependências
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
@@ -53,7 +53,7 @@ pytest -v
 python -m src.pipeline --input data/raw/sample_data.csv --output outputs/reports/cluster_segments.xlsx
 
 # 6. Ou explorar interativamente
-jupyter notebook notebooks/01_rfm_clustering_analysis.ipynb
+jupyter notebook notebooks/rfm_clustering_analysis.ipynb
 ```
 
 ##  Estrutura do projeto
@@ -70,7 +70,7 @@ jupyter notebook notebooks/01_rfm_clustering_analysis.ipynb
 │   └── processed/                  ← dados intermediários (criada e preenchida ao rodar a pipeline)
 │
 ├── notebooks/
-│   └── 01_rfm_clustering_analysis.ipynb   ← EDA + modelagem + interpretação, passo a passo
+│   └── rfm_clustering_analysis.ipynb   ← EDA + modelagem + interpretação, passo a passo
 │
 ├── src/                             ← pipeline de produção, testada e reutilizável
 │   ├── data_processing.py          ← carga e limpeza dos dados
@@ -82,7 +82,6 @@ jupyter notebook notebooks/01_rfm_clustering_analysis.ipynb
 ├── tests/                           ← testes automatizados (pytest) com dados sintéticos
 │
 ├── outputs/
-│   ├── figures/                    ← gráficos exportados
 │   └── reports/                    ← planilhas de clientes segmentados (.xlsx)
 │
 └── docs/
@@ -104,7 +103,7 @@ jupyter notebook notebooks/01_rfm_clustering_analysis.ipynb
 6. **Interpretação e recomendações** — perfil de cada cluster traduzido em estratégias de CRM.
 
 Detalhes de cada decisão (por que winsorização, por que k=4, por que KMeans e não GMM, etc.)
-estão documentados em [`docs/README_TECNICO.md`](docs/README_TECNICO.md).
+estão documentados em [`docs/README_TECNICO.md`](docs/Readme_tecnico.md).
 
 ##  Qualidade e testes
 
