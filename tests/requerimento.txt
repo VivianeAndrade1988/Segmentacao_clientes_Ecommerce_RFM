@@ -1,0 +1,27 @@
+# --- Núcleo de dados e ciência de dados ---
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+
+# --- Visualização ---
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.15
+kaleido>=0.2          # export estático de gráficos plotly (opcional)
+
+# --- Utilitários de EDA ---
+sidetable>=0.9
+yellowbrick>=1.5
+
+# --- Exportação de relatórios ---
+openpyxl>=3.1          # leitura/escrita de .xlsx
+
+# --- Notebook ---
+jupyter>=1.0
+nbconvert>=7.0
+nbclient>=0.8
+ipykernel>=6.25
+
+# --- Testes ---
+pytest>=7.4
