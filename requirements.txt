@@ -10,6 +10,7 @@ seaborn>=0.12
 plotly>=5.15
 kaleido>=0.2          # export estático de gráficos plotly (opcional)
 
+
 # --- Utilitários de EDA ---
 sidetable>=0.9
 yellowbrick>=1.5
